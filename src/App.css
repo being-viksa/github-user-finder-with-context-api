@@ -417,4 +417,13 @@ table th {
   .grid-2 {
     display: block;
   }
+
+  .grid-2 img {
+    width: 250px !important;
+    height: 220px !important;
+  }
+
+  .grid-2 h1 {
+    line-height: 40px;
+  }
 }

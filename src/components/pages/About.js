@@ -5,7 +5,7 @@ const About = () => {
   return (
     <Fragment>
       <div className="card grid-2">
-        <div className="all-center">
+        <div className="all-center my-2">
           <img
             src={viksa}
             className="round-img"
