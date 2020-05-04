@@ -346,6 +346,12 @@ table th {
   background: var(--light-color);
 }
 
+.userstyle {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
 /* Navbar */
 .navbar {
   display: flex;
@@ -425,5 +431,11 @@ table th {
 
   .grid-2 h1 {
     line-height: 40px;
+  }
+
+  .userstyle {
+    display: grid;
+    grid-template-columns: 160px 160px;
+    grid-gap: 10px;
   }
 }
